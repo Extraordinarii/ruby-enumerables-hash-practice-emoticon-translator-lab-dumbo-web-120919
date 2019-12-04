@@ -1,6 +1,9 @@
 # require modules here
-
-def load_library
+require "yaml"
+def load_library(filename)
+  files = YAML.load_file(filename)
+  
+  library.each do |key, value| 
   # code goes here
 end
 
