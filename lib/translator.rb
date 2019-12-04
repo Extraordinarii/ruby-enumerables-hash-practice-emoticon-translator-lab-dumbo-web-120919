@@ -17,7 +17,7 @@ def get_japanese_emoticon(filename, emote)
  if emoticon_data["get_emoticon"][emote]
    return emoticon_data["get_emoticon"][emote]
  else
-   return "This doesn't work"
+   return "Sorry, that emoticon was not found"
  end
   # code goes here
 end
@@ -27,7 +27,7 @@ def get_english_meaning(filename, emote)
   if emoticon_data["get_emoticon"][emote]
     return emoticon_data["get_emoticon"][emote]
 else 
-  return "This doesn't work"
+  return "Sorry, that emoticon was not found"
   # code goes here
 end
 end
