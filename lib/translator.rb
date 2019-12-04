@@ -12,7 +12,7 @@ end
 return emoticon_data
 end
 
-def get_japanese_emoticon()
+def get_japanese_emoticon(filename, emote)
   # code goes here
 end
 
