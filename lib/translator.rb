@@ -13,7 +13,7 @@ return emoticon_data
 end
 
 def get_japanese_emoticon(filename, emote)
- emoticon_data = load_library(filename, emote)
+ emoticon_data = load_library(filename)
  if emoticon_data["get_meaning"][emote]
    return emoticon_data["get_meaning"][emote]
  else
