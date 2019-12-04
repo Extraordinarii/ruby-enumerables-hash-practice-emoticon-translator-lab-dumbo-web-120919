@@ -24,8 +24,8 @@ end
 
 def get_english_meaning(filename, emote)
   emoticon_data = load_library(filename)
-  if emoticon_data["get_emoticon"][emote]
-    return emoticon_data["get_emoticon"][emote]
+  if emoticon_data["get_meaning"][emote]
+    return emoticon_data["get_meaning"][emote]
 else 
   return "Sorry, that emoticon was not found"
   # code goes here
