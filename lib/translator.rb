@@ -12,7 +12,15 @@ end
 return emoticon_data
 end
 
-
+def get_japanese_emoticon(filename, emote)
+ emoticon_data = load_library(filename, emote)
+ if emoticon_data["get_emoticon"][emote]
+   return emoticon_data["get_emoticon"][emote]
+ else
+   return "This doesn't work"
+ end
+  # code goes here
+end
 
 def get_english_meaning
   # code goes here
